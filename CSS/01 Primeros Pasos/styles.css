@@ -1,0 +1,18 @@
+p {
+    color: blue;
+    background-color: red;
+}
+
+.clase-texto{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+#texto{
+    color: brown;
+    background-color: blue;
+}
+
+.clase-texto span{
+    color: red;
+}
+
