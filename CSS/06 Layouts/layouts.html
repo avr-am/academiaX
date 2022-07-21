@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100%;
+        display: grid;
+        grid-template-columns: 100px auto;
+        grid-template-rows: 40px auto 100px;
+        gap: 10px;
+      }
+
+      nav,
+      aside,
+      main,
+      footer {
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav {
+        background: lightsalmon;
+        justify-content: space-evenly;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      aside {
+        background: violet;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+      main {
+        background-color: greenyellow;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+
+      footer {
+        background-color: lightblue;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#hogar">Hogar</a>
+      <a href="#aprende">Aprende</a>
+      <a href="#acercaDe">Acerca de</a>
+    </nav>
+    <aside>Contenido Lateral</aside>
+    <main>Contenido principal</main>
+    <footer>&copy; Álvaro Acuña Marcos 2022</footer>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        position: relative;
+      }
+      #primero {
+        /* position: static para mantener flujo del documento */
+        /*position: relative para mantener flujo y aplicar otras cosas*/
+        /*position: relative;
+        top: 10px;
+        bottom: 50px;*/
+
+        /*position: absolute;
+        z-index: 1;
+        left: 20px;
+        top: 90px;*/
+        /*
+        position: fixed;
+        left: 20px;
+        top: 90px;
+        */
+
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="primero" style="background-color: blue"></div>
+    <div style="background-color: yellow"></div>
+    <div style="background-color: red"></div>
+    <div style="background-color: green"></div>
+    <div style="background-color: black"></div>
+    <div style="background-color: yellow"></div>
+    <div style="background-color: red"></div>
+    <div style="background-color: green"></div>
+    <div style="background-color: black"></div>
+    <div style="background-color: yellow"></div>
+    <div style="background-color: red"></div>
+    <div style="background-color: green"></div>
+    <div style="background-color: black"></div>
+  </body>
+</html>
